@@ -10,7 +10,7 @@ import IconButton from "@mui/material/IconButton/";
 function SwipeButtons() {
   return (
     <div className="swipeButtons">
-      <IconButton className="swipeButtons_repeat">
+      <IconButton className="swipeButtons_repeat why">
         <ReplayIcon fontSize="large"></ReplayIcon>
       </IconButton>
       <IconButton className="swipeButtons_left">
@@ -22,7 +22,7 @@ function SwipeButtons() {
       <IconButton className="swipeButtons_right">
         <FavoriteIcon fontSize="large"></FavoriteIcon>
       </IconButton>
-      <IconButton className="swipeButtons_lighting">
+      <IconButton className="swipeButtons_lightning">
         <FlashOnIcon fontSize="large"></FlashOnIcon>
       </IconButton>
     </div>
